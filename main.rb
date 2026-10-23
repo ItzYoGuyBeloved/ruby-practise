@@ -2,19 +2,19 @@
 puts "Ruby basics: variables, data types, operators, and decision making"
 
 # Variables and data types
-name = "Ariana"
-age = 25
-height = 5.8
+name = "Beloved"
+age = 16
+height = 187.96
 is_student = true
-favorite_languages = ["Ruby", "Python", "JavaScript"]
-address = { "city" => "Lagos", "country" => "Nigeria" }
+favorite_languages = ["Ruby", "Python"]
+
 
 puts "Name: #{name}"
 puts "Age: #{age}"
 puts "Height: #{height}"
 puts "Student: #{is_student}"
 puts "Favorite languages: #{favorite_languages.inspect}"
-puts "Address: #{address["city"]}, #{address["country"]}"
+
 
 # Arithmetic operators
 num1 = 10
@@ -35,7 +35,7 @@ puts "Is 10 not equal to 3? #{10 != 3}"
 if age >= 18
   puts "#{name} is an adult."
 else
-  puts "#{name} is a minor."
+  puts "#{name} is a young person."
 end
 
 if favorite_languages.include?("Ruby")
@@ -99,5 +99,5 @@ class Person
   end
 end
 
-person = Person.new("Ariana", age)
+person = Person.new("Beloved", age)
 puts person.intro
