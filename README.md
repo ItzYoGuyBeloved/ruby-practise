@@ -1,4 +1,4 @@
-# ruby-practise
+# Ruby Practise
 
 A beginner-friendly Ruby learning repository where I practise the fundamentals of Ruby programming.
 
